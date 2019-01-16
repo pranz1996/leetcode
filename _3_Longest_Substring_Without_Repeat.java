@@ -6,7 +6,7 @@ import java.util.Set;
 public class _3_Longest_Substring_Without_Repeat {
 
 	public static void main(String[] args) {
-		String s = "pwwkew";
+		String s = "abcabcbb";
 		// output = 3 because of wke
 		int i = 0, j = 0, max = 0;
 	        

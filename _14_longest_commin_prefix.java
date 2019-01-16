@@ -21,7 +21,6 @@ public class _14_longest_commin_prefix {
     	   }
     	   i++;
        }
-       
        return prefix;
     }
 }
