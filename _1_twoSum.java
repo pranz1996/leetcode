@@ -1,6 +1,6 @@
 package leetcode;
 
-import java.util.HashMap;
+import java.util.*;
 import java.util.Map;
 
 public class _1_twoSum {
@@ -29,6 +29,8 @@ public class _1_twoSum {
 	    
 	    for( i = 0 ; i < answer.length ; i++)
 	    	System.out.print(answer[i] + " ");
+	    
+	   
 	}
 	
 	

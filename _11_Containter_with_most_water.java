@@ -3,8 +3,8 @@ package leetcode;
 public class _11_Containter_with_most_water {
 
 	public static void main(String[] args) {
-		int arr[] = {1,8,6,2,5,4,8,3,7};
-		System.out.println(maxArea(arr));
+		int arr[] = {1,1};
+		System.out.println(maxAreaOptimizedVersion(arr));
 	}
 	
 	public static int maxAreaOptimizedVersion(int[] height) {

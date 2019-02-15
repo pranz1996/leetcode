@@ -18,7 +18,9 @@ public class _14_longest_commin_prefix {
        while(i < strs.length) {
     	   while(strs[i].indexOf(prefix) != 0) {
     		   prefix = prefix.substring(0,prefix.length()-1);
+    		   System.out.println(prefix);
     	   }
+    	   System.out.println();
     	   i++;
        }
        return prefix;

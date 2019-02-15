@@ -1,5 +1,7 @@
 package leetcode;
 
+import java.util.*;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
@@ -47,6 +49,7 @@ public class _26_RemoveDupsInPlace {
 				hm.put(i, 1);                       
 			}
 		}
+		
         
 		System.out.println(hm);
 		
@@ -66,6 +69,11 @@ public class _26_RemoveDupsInPlace {
 			System.out.print(arr[i] + " ");
 			
 		}
+		
+		String str = "srrsd";
+		
+		Arrays.sort(str.toCharArray());
+				
 	}
 
 }
